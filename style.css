@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+body{
+    background: rgb(173, 182, 178);
+    font-family: 'Roboto', 'Geneva', 'Vedana', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25); 
+}
+
+.info-text p {
+    font-style: italic;
+    color: #000;
+    margin: 0;
+    
+}
+
+.info-text h4 {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(103, 29, 172);
+}
+
+a:active {
+    color: blue;
+}
+
+.btn {
+   background: green;
+   cursor: pointer;
+   border-radius: 10px;
+   font-family: inherit;
+   margin-top: 5px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+a {
+    font-family: 'Pacifico', cursive;
+}
+
+.card {
+    border: 1px solid black;
+    background:rgb(167, 204, 158);
+    border-radius: 20px;
+}
+
+.list ol {
+    margin: 20px;
+    padding: 20px;
+}
+
+.list li {
+    padding: 2px;
+}
+
+h3 {
+    padding-left: 5px;
+}
+
+.table {
+    width: 100%;
+    padding: 0px 0px 20px 20px;
+}
+
+.table th {
+   text-align: left; 
+   padding-bottom: 10px;
+}
+
+table td {
+    padding: 5px;
+}
+
+.info {
+    display: flex;
+}
+
+@media (max-width: 550px) {
+    .info {
+     display: block;
+     text-align: center;
+    }
+     /* font-size: 1.5rem; */
+     
+ }
+
+.info-text {
+    margin: 25px;
+}
+
+.info-text h1 {
+    margin-top: 0%;
+}
+
+/* .form-row {
+margin-bottom: 10px;
+display: flex;
+}  */
+
+/* .form-row .form-group {
+    margin-right: 20px;
+    width: 50%
+}  */
+
+/* .form-row .form-group:last-child {
+    margin-right: 0;
+}  */
+
+/* @media (max-widgh: 550px) {
+    .form-row {
+display: block;
+} 
+
+.form-row .form-group {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%
+} 
+} */
+
+.form-group label{
+display: block;
+font-size: 14px;
+margin: 10px 0 0 0;
+}
+
+.form-group input,
+.form-group textarea {
+/* width: 100%; */
+box-sizing: border-box;
+/* border: none; */
+/* background: transparent; */
+/* border-bottom: 1px solid #ccc; */
+font-family: inherit;
+}
